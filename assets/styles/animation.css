@@ -1,0 +1,18 @@
+@keyframes about {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes scrollbar {
+   from {
+   filter: hue-rotate(280deg);
+   -webkit-filter: hue-rotate(280deg);
+   /*background: linear-gradient(90deg, rgba(131,243,0,1) 0%, rgba(204,243,0,1) 100%);*/
+} to {
+    filter: hue-rotate(360deg);
+    -webkit-filter: hue-rotate(360deg);
+    /*background: linear-gradient(90deg, rgba(255,216,0,1) 0%, rgba(255,162,0,1) 100%);*/
+}
+}
