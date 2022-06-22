@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="MetaBeer Bottle is a collection of 9999 unique collectible bottles for the digital world and easily traded through the use of the Polygon Network." />

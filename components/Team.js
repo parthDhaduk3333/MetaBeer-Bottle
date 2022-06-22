@@ -60,7 +60,7 @@ const Team = () => {
                   </div>
                   <div className="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center teem_member teamMrg">
                       <div className="member d-flex justify-content-center align-items-center wow fadeInUp">
-                          <Image src="/images/kishan_bhuva.png" alt="Meet The Team Members" draggable="false" height="340" width="250"
+                          <Image src="/images/kishan_bhuva.png" alt="Meet The Team Members" draggable="false" height="340" width="330"
                               className="img-fluid member_image" />
                       </div>
                       <span className="wow fadeInUp text-center" data-wow-delay="0.5s">
