@@ -20,27 +20,27 @@ const Footer = () => {
                             </nav>
                             <div className="socialMedia ms-3 d-flex justify-content-center align-items-center">
 
-                                <a href="#" target="_blank">
+                                <a href="#" target="_blank" rel="noreferrer">
                                     <div className="socialMainHvr wow fadeIn" data-wow-delay="1.1s">
                                         <Image src="/images/discord.png" alt="Discord Icon" className="img-fluid socialIcon " draggable="false" height={50} width={50} />
                                     </div>
                                 </a>
-                                <a href="https://twitter.com/MetabeerB" target="_blank">
+                                <a href="https://twitter.com/MetabeerB" target="_blank" rel="noreferrer">
                                     <div className="socialMainHvr wow fadeIn" data-wow-delay="1.2s">
                                         <Image src="/images/twitter.png" alt="Twitter Icon" height={50} width={50} className="img-fluid socialIcon " draggable="false" />
                                     </div>
                                 </a>
-                                <a href="https://instagram.com/metabeerbottle" target="_blank">
+                                <a href="https://instagram.com/metabeerbottle" target="_blank" rel="noreferrer">
                                     <div className="socialMainHvr wow fadeIn" data-wow-delay="1.3s">
                                         <Image height={50} width={50} src="/images/instagram.png" alt="Instagram Icon" className="img-fluid socialIcon " draggable="false" />
                                     </div>
                                 </a>
-                                <a href="https://www.facebook.com/metabeerbottle" target="_blank">
+                                <a href="https://www.facebook.com/metabeerbottle" target="_blank" rel="noreferrer">
                                     <div className="socialMainHvr wow fadeIn" data-wow-delay="1.4s">
                                         <Image height={50} width={50} src="/images/facebook.png" alt="Facebook Icon" className="img-fluid socialIcon " draggable="false" />
                                     </div>
                                 </a>
-                                <a href="https://t.me/metabeerbottle" target="_blank">
+                                <a href="https://t.me/metabeerbottle" target="_blank" rel="noreferrer">
                                     <div className="socialMainHvr wow fadeIn" data-wow-delay="1.5s">
                                         <Image src="/images/telegram.png" alt="Telegram Icon" className="img-fluid socialIcon " draggable="false" height={50} width={50} />
                                     </div>
