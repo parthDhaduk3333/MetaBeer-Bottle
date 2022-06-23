@@ -1,12 +1,11 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 
 const Footer = () => {
     return (
         <footer>
             <div className="footBg">
                 <div className="container">
-
                     <div className="row">
                         <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center my-5">
                             <a href="#" className="mb-3 mb-lg-0 wow fadeIn" data-wow-delay="0.5s"><Image src="/images/Logo.png" alt="Logo of Meta Beer Bottle" draggable="false" className="img-fluid logo" height="70" width="90" /></a>
@@ -21,41 +20,34 @@ const Footer = () => {
                             </nav>
                             <div className="socialMedia ms-3 d-flex justify-content-center align-items-center">
 
-                                <a href="#">
+                                <a href="#" target="_blank">
                                     <div className="socialMainHvr wow fadeIn" data-wow-delay="1.1s">
                                         <Image src="/images/discord.png" alt="Discord Icon" className="img-fluid socialIcon " draggable="false" height={50} width={50} />
                                     </div>
                                 </a>
-                                <a href="#">
+                                <a href="https://twitter.com/MetabeerB" target="_blank">
                                     <div className="socialMainHvr wow fadeIn" data-wow-delay="1.2s">
-                                        <Image src="/images/telegram.png" alt="Telegram Icon" className="img-fluid socialIcon " draggable="false" height={50} width={50} />
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div className="socialMainHvr wow fadeIn" data-wow-delay="1.3s">
-                                        <Image src="/images/linkedin.png" alt="Linkedin Icon" className="img-fluid socialIcon " draggable="false" height={50} width={50} />
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div className="socialMainHvr wow fadeIn" data-wow-delay="1.4s">
                                         <Image src="/images/twitter.png" alt="Twitter Icon" height={50} width={50} className="img-fluid socialIcon " draggable="false" />
                                     </div>
                                 </a>
-                                <a href="#">
-                                    <div className="socialMainHvr wow fadeIn" data-wow-delay="1.5s">
-                                        <Image height={50} width={50} src="/images/facebook.png" alt="Facebook Icon" className="img-fluid socialIcon " draggable="false" />
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div className="socialMainHvr wow fadeIn" data-wow-delay="1.6s">
+                                <a href="https://instagram.com/metabeerbottle" target="_blank">
+                                    <div className="socialMainHvr wow fadeIn" data-wow-delay="1.3s">
                                         <Image height={50} width={50} src="/images/instagram.png" alt="Instagram Icon" className="img-fluid socialIcon " draggable="false" />
                                     </div>
                                 </a>
+                                <a href="https://www.facebook.com/metabeerbottle" target="_blank">
+                                    <div className="socialMainHvr wow fadeIn" data-wow-delay="1.4s">
+                                        <Image height={50} width={50} src="/images/facebook.png" alt="Facebook Icon" className="img-fluid socialIcon " draggable="false" />
+                                    </div>
+                                </a>
+                                <a href="https://t.me/metabeerbottle" target="_blank">
+                                    <div className="socialMainHvr wow fadeIn" data-wow-delay="1.5s">
+                                        <Image src="/images/telegram.png" alt="Telegram Icon" className="img-fluid socialIcon " draggable="false" height={50} width={50} />
+                                    </div>
+                                </a>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
 
