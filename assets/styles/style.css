@@ -920,7 +920,7 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    border: 3px solid #95ef00;
+    /* border: 3px solid #95ef00; */
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -941,7 +941,7 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    border: 3px solid #95ef00;
+    /* border: 3px solid #95ef00; */
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
