@@ -1,46 +1,48 @@
-wow = new WOW(
-    {
-        boxClass: 'wow',      // default
-        animateClass: 'animated', // default
-        offset: 0,          // default
-        mobile: true,       // default
-        live: true        // default
+setTimeout(callNow(), 2000);
+function callNow () {
+    wow = new WOW(
+        {
+            boxClass: 'wow',      // default
+            animateClass: 'animated', // default
+            offset: 0,          // default
+            mobile: true,       // default
+            live: true        // default
+        }
+    )
+    wow.init();
+
+    const navIcon = document.querySelector('.navIcon')
+    const navbar = document.querySelector('.navbar')
+    const Close = document.querySelector('.Close')
+    const blackBG = document.querySelector('.blackBG')
+
+    navIcon.addEventListener('click', () => {
+        navbar.classList.toggle('navbarActive')
+        blackBG.classList.toggle('blackBGActive')
+    })
+    Close.addEventListener('click', () => {
+        navbar.classList.remove('navbarActive')
+        blackBG.classList.remove('blackBGActive')
+    })
+    blackBG.addEventListener('click', () => {
+        navbar.classList.remove('navbarActive')
+        blackBG.classList.remove('blackBGActive')
+    })
+
+
+
+    const sliderText = document.querySelectorAll('.sliderTxt');
+    const slide = document.getElementById('launch');
+    if (slide) {
+        sliderText.forEach(item => {
+            item.innerHTML = 'Launching Soon'
+        })
+    } else {
+        sliderText.forEach(item => {
+            item.innerHTML = 'MINT NOW'
+        })
     }
-)
-wow.init();
-
-const navIcon = document.querySelector('.navIcon')
-const navbar = document.querySelector('.navbar')
-const Close = document.querySelector('.Close')
-const blackBG = document.querySelector('.blackBG')
-
-navIcon.addEventListener('click', () => {
-    navbar.classList.toggle('navbarActive')
-    blackBG.classList.toggle('blackBGActive')
-})
-Close.addEventListener('click', () => {
-    navbar.classList.remove('navbarActive')
-    blackBG.classList.remove('blackBGActive')
-})
-blackBG.addEventListener('click', () => {
-    navbar.classList.remove('navbarActive')
-    blackBG.classList.remove('blackBGActive')
-})
-
-
-
-const sliderText = document.querySelectorAll('.sliderTxt');
-const slide = document.getElementById('launch');
-if (slide) {
-    sliderText.forEach(item => {
-        item.innerHTML = 'Launching Soon'
-    })
-} else {
-    sliderText.forEach(item => {
-        item.innerHTML = 'MINT NOW'
-    })
-}
-const res =  {
+    const res = {
         0: {
             items: 2,
             margin: 10
@@ -171,7 +173,7 @@ const res =  {
     //         }
     //     }
     // })
-    
+
     $('.NftRevSlider').owlCarousel({
         loop: true,
         margin: 15,
@@ -187,16 +189,17 @@ const res =  {
         rtl: true,
         responsive: slide ? res : mint
     })
-// =========== scroll ============
+    // =========== scroll ============
 
-const body = document.body,
-    html = document.documentElement;
-const height = (Math.max(body.scrollHeight, body.offsetHeight,
-    html.clientHeight, html.scrollHeight, html.offsetHeight)) - window.innerHeight;
+    const body = document.body,
+        html = document.documentElement;
+    const height = (Math.max(body.scrollHeight, body.offsetHeight,
+        html.clientHeight, html.scrollHeight, html.offsetHeight)) - window.innerHeight;
     const scrollbar = document.getElementById('progressbar')
-window.addEventListener('scroll',() => {
-    const scrollHeight = window.scrollY;
-const scrollAmount = (100 * scrollHeight) / height
-scrollbar.style.height=`${scrollAmount}vh`
-    console.log(scrollAmount)
-})
+    window.addEventListener('scroll', () => {
+        const scrollHeight = window.scrollY;
+        const scrollAmount = (100 * scrollHeight) / height
+        scrollbar.style.height = `${scrollAmount}vh`
+        console.log(scrollAmount)
+    })
+}
