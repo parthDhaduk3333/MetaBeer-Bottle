@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
+import { Toaster } from 'react-hot-toast'
 import Aboutus from '../components/Aboutus'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
@@ -20,6 +21,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="MetaBeer Bottle is a collection of 9999 unique collectible bottles for the digital world and easily traded through the use of the Polygon Network." />
         <meta name="keywords" content="MetaBeer Bottle,MetaBeer Bottles,MetaBeer Bottle NFT,MetaBeer  NFT,Meta Beer Bottle,Meta Beer Bottles,Meta Beer Website,Meta Beer Bottle Website,Meta Beer Bottles ebsite,MetaBeer Bottle Website,MetaBeer Bottles Website,Meta Bottle Verse,Meta BottleVerse,BottleVerse,Meta Beer Logo,MetaBeer Logo,Meta Beer Bottle Logo,MetaBeer Bottle Logo,MetaBeer,Meta NFT,Beer NFT,NFT,Meta,MetaBeer Bottle Metaverse" />
+        <meta property="og:image" content="https://www.metabeerbottle.com/_next/image?url=%2Fimages%2FMain_Banner_Img.png&w=2048&q=75" />
+        <meta property="og:image:width" content="675" />
+        <meta property="og:image:height" content="1000" />
         <title>MetaBeer Bottle</title>
         <link rel="icon" href="/images/favicon.png" />
       </Head>
@@ -46,6 +50,8 @@ export default function Home() {
       <Faq />
       {/* =============== Footer =============== */}
       <Footer />
+      {/* ================= Toaster =============== */}
+      <Toaster />
     </>
   )
 }

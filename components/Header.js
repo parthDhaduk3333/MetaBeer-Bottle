@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import ConnectWallet from './ConnectWallet'
 
 const Header = () => {
     return (
@@ -16,11 +17,11 @@ const Header = () => {
                             <li className="nav wow fadeIn" data-wow-delay="1.2s"><a href="#ROADMAP" className="navItem NavTxt f-16">ROADMAP</a></li>
                             <li className="nav wow fadeIn" data-wow-delay="1.3s"><a href="#TEAM" className="navItem NavTxt f-16">TEAM</a></li>
                             <li className="nav wow fadeIn" data-wow-delay="1.4s"><a href="#RareMint" className="navItem NavTxt f-16">RARE MINT</a></li>
-                            <li className="nav wow fadeIn" data-wow-delay="1.5s"><a href="#BOTTLEVERSE" className="navItem NavTxt f-16">BOTTLEVERSE</a></li>
+                            <li className="nav wow fadeIn" data-wow-delay="1.5s"><a href="https://bottleverse.metabeerbottle.com" className="navItem NavTxt f-16" target="_blank">BOTTLEVERSE</a></li>
                         </ul>
                     </nav>
                     <div className="blackBG"></div>
-                    <a href="#"><div className="cusBtn ms-3 ms-md-5">CONNECT WALLET</div></a>
+                    <ConnectWallet />
                     <div className="d-inline-block">
                         <div className="navIcon"><i className="fas fa-bars"></i></div>
                     </div>

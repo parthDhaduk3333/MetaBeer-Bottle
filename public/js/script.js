@@ -1,5 +1,4 @@
-setTimeout(callNow(), 2000);
-function callNow () {
+setTimeout(() => {
     wow = new WOW(
         {
             boxClass: 'wow',      // default
@@ -42,6 +41,7 @@ function callNow () {
             item.innerHTML = 'MINT NOW'
         })
     }
+
     const res = {
         0: {
             items: 2,
@@ -130,49 +130,6 @@ function callNow () {
         mouseDrag: false,
         responsive: slide ? res : mint
     })
-    // $('.NftSlider').owlCarousel({
-    //     loop: true,
-    //     margin: 15,
-    //     nav: false,
-    //     dots: false,
-    //     autoplay: true,
-    //     autoplaySpeed: 3000,
-    //     autoplayTimeout: 3000,
-    //     autoplayHoverPause: false,
-    //     slideTransition: 'linear',
-    //     touchDrag: false,
-    //     mouseDrag: false,
-    //     responsive: {
-    //         0: {
-    //             items: 4,
-    //             margin: 7
-    //         },
-    //         700: {
-    //             items: 5,
-    //             margin: 7
-    //         },
-    //         800: {
-    //             items: 6,
-    //             margin: 10
-    //         },
-    //         1000: {
-    //             items: 7,
-    //             margin: 13
-    //         },
-    //         1200: {
-    //             items: 9,
-    //             margin: 13
-    //         },
-    //         1400: {
-    //             items: 11,
-    //             margin: 15
-    //         },
-    //         1600: {
-    //             items: 14,
-    //             margin: 15
-    //         }
-    //     }
-    // })
 
     $('.NftRevSlider').owlCarousel({
         loop: true,
@@ -202,4 +159,4 @@ function callNow () {
         scrollbar.style.height = `${scrollAmount}vh`
         console.log(scrollAmount)
     })
-}
+}, 1000);
