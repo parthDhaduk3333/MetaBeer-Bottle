@@ -23,7 +23,8 @@ export default function Home() {
         <meta name="keywords" content="MetaBeer Bottle,MetaBeer Bottles,MetaBeer Bottle NFT,MetaBeer  NFT,Meta Beer Bottle,Meta Beer Bottles,Meta Beer Website,Meta Beer Bottle Website,Meta Beer Bottles ebsite,MetaBeer Bottle Website,MetaBeer Bottles Website,Meta Bottle Verse,Meta BottleVerse,BottleVerse,Meta Beer Logo,MetaBeer Logo,Meta Beer Bottle Logo,MetaBeer Bottle Logo,MetaBeer,Meta NFT,Beer NFT,NFT,Meta,MetaBeer Bottle Metaverse" />
         <meta property="og:image" content="https://www.metabeerbottle.com/_next/image?url=%2Fimages%2FMain_Banner_Img.png&w=2048&q=75" />
         <meta property="og:title" content="MetaBeer Bottle" />
-        <meta property="og:url" content="https://metabeerbottle.com/" />
+        <meta property="og:url" content="https://metabeerbottle.com/"/>
+        <meta property="og:url" content="https://www.metabeerbottle.com/"/>
         <meta property="og:image:width" content="500" />
         <meta property="og:image:height" content="800" />
         <title>MetaBeer Bottle</title>
