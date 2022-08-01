@@ -25,9 +25,9 @@ export default function Home() {
         <meta property="og:title" content="MetaBeer Bottle" />
         <meta property="og:url" content="https://metabeerbottle.com/" />
         <meta property="og:image:width" content="500" />
-        <meta property="og:image:height" content="500" />
+        <meta property="og:image:height" content="800" />
         <title>MetaBeer Bottle</title>
-        <link rel="icon" href="/images/favicon.png" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Script src='/js/jquery-3.6.0.min.js' strategy='afterInteractive' />
       <Script src='/js/owl.carousel.min.js' strategy='afterInteractive' />
