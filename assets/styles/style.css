@@ -1100,3 +1100,37 @@ a:hover {
 .circleAnimation5 {
     z-index: -999;
 }
+
+.whitelistInput {
+    background-color: transparent;
+    padding: 7px 10px;
+    font-size: 15px;
+    border: 0.5px solid var(--theme-white);
+    border-radius:10px;
+    margin: 0 20px 0 0;
+    width: 300px;
+    max-width: 100%;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.whitelistInput:focus {
+    outline: none;
+}
+.whitelistbutton {
+    background-color: #83f300;
+}
+.toast-close {
+    height: 100%;
+}
+.toast-close:hover {
+    background-color: rgb(18, 18, 18);
+}
+.toast-backgorund {
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}

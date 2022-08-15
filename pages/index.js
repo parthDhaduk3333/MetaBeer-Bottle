@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
-import { Toaster } from 'react-hot-toast'
 import Aboutus from '../components/Aboutus'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
@@ -11,6 +10,7 @@ import Mint from '../components/Mint'
 import Roadmap from '../components/Roadmap'
 import Slider from '../components/Slider'
 import Team from '../components/Team'
+import {Toaster} from 'react-hot-toast'
 
 export default function Home() {
   return (
@@ -23,7 +23,6 @@ export default function Home() {
         <meta name="keywords" content="MetaBeer Bottle,MetaBeer Bottles,MetaBeer Bottle NFT,MetaBeer  NFT,Meta Beer Bottle,Meta Beer Bottles,Meta Beer Website,Meta Beer Bottle Website,Meta Beer Bottles ebsite,MetaBeer Bottle Website,MetaBeer Bottles Website,Meta Bottle Verse,Meta BottleVerse,BottleVerse,Meta Beer Logo,MetaBeer Logo,Meta Beer Bottle Logo,MetaBeer Bottle Logo,MetaBeer,Meta NFT,Beer NFT,NFT,Meta,MetaBeer Bottle Metaverse" />
         <meta property="og:image" content="https://www.metabeerbottle.com/_next/image?url=%2Fimages%2FMain_Banner_Img.png&w=2048&q=75" />
         <meta property="og:title" content="MetaBeer Bottle" />
-        <meta property="og:url" content="https://metabeerbottle.com/"/>
         <meta property="og:url" content="https://www.metabeerbottle.com/"/>
         <meta property="og:image:width" content="500" />
         <meta property="og:image:height" content="800" />
@@ -35,7 +34,11 @@ export default function Home() {
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" strategy='afterInteractive' />
       <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' strategy='afterInteractive' />
       <Script src='/js/script.js' strategy='afterInteractive' />
+      <Script src='https://www.googletagmanager.com/gtag/js?id=G-L9FWB7GVPJ' strategy='lazyOnload'></Script>
+      <Script src='/js/google.js' strategy='lazyOnload'></Script>
       <div className="progressbar" id="progressbar"></div>
+      {/* =============== toaster ============== */}
+      <Toaster toastOptions={{position:'top-right',}} containerStyle={{fontFamily:"sans-serif",fontWeight:"bold"}}></Toaster>
       {/* =============== Header =============== */}
       <Header />
       {/* =============== Main Banner ========== */}
@@ -54,7 +57,6 @@ export default function Home() {
       {/* =============== Footer =============== */}
       <Footer />
       {/* ================= Toaster =============== */}
-      <Toaster />
     </>
   )
 }
