@@ -1,4 +1,4 @@
-setTimeout(() => {
+
     wow = new WOW(
         {
             boxClass: 'wow',      // default
@@ -159,4 +159,3 @@ setTimeout(() => {
         scrollbar.style.height = `${scrollAmount}vh`
         console.log(scrollAmount)
     })
-}, 1000);

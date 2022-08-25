@@ -33,7 +33,7 @@ export default function Home() {
       <Script src='/js/owl.carousel.min.js' strategy='afterInteractive' />
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" strategy='afterInteractive' />
       <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' strategy='afterInteractive' />
-      <Script src='/js/script.js' strategy='afterInteractive' />
+      <Script src='/js/script.js' strategy='lazyOnload' />
       <Script src='https://www.googletagmanager.com/gtag/js?id=G-L9FWB7GVPJ' strategy='lazyOnload'></Script>
       <Script src='/js/google.js' strategy='lazyOnload'></Script>
       <div className="progressbar" id="progressbar"></div>
